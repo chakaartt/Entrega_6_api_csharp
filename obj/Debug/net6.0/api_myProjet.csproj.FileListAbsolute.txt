@@ -25,3 +25,12 @@ C:\Users\ASUS\Documents\c#\api_myProjet\obj\Debug\net6.0\refint\api_myProjet.dll
 C:\Users\ASUS\Documents\c#\api_myProjet\obj\Debug\net6.0\api_myProjet.pdb
 C:\Users\ASUS\Documents\c#\api_myProjet\obj\Debug\net6.0\api_myProjet.genruntimeconfig.cache
 C:\Users\ASUS\Documents\c#\api_myProjet\obj\Debug\net6.0\ref\api_myProjet.dll
+C:\Users\ASUS\Documents\c#\api_myProjet\bin\Debug\net6.0\Humanizer.dll
+C:\Users\ASUS\Documents\c#\api_myProjet\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ASUS\Documents\c#\api_myProjet\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ASUS\Documents\c#\api_myProjet\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ASUS\Documents\c#\api_myProjet\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ASUS\Documents\c#\api_myProjet\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ASUS\Documents\c#\api_myProjet\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ASUS\Documents\c#\api_myProjet\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\ASUS\Documents\c#\api_myProjet\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll

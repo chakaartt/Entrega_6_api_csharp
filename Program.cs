@@ -1,4 +1,5 @@
 using api_myProjet.DataBase;
+using api_myProjet.Repository;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -10,6 +11,9 @@ var connectionMySql = builder.Configuration.GetConnectionString("DefaultConnecti
 builder.Services.AddDbContext<UsuarioDbContext>(
     options => options.UseMySql(connectionMySql,ServerVersion.Parse("8.0.29-mysql"))
 );
+
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
