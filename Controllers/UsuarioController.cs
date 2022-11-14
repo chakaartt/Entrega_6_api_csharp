@@ -62,7 +62,7 @@ namespace api_myProjet.Controllers
             _Repository.DeletarUsuario(UsuarioExiste);
 
             return await _Repository.SaveChangesAsync() 
-            ? Ok("usuário atualizado.") : BadRequest("Algum deu errado.");
+            ? Ok("usuário Deletado.") : BadRequest("Algum deu errado, o usuário não foi deletado.");
        }
     }
 }
