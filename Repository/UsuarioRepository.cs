@@ -1,6 +1,7 @@
 
 using api_myProjet.DataBase;
 using api_myProjet.model;
+using Microsoft.EntityFrameworkCore;
 
 namespace api_myProjet.Repository
 {
@@ -21,22 +22,23 @@ namespace api_myProjet.Repository
 
     public void AtualizarUsuario(Usuario usuario)
     {
-      throw new NotImplementedException();
+      _context.Update(usuario);
     }
 
     public void DeletarUsuario(Usuario usuario)
     {
-      throw new NotImplementedException();
+      _context.Remove(usuario);
     }
 
-    public Task<Usuario> GetUsuarioById(int id)
+    public async Task<Usuario> GetUsuarioById(int id)
     {
-      throw new NotImplementedException();
+      return await _context.Usuarios
+      .Where(x => x.Id == id).FirstOrDefaultAsync();
     }
 
-    public Task<IEnumerable<Usuario>> GetUsuarios()
+    public  async Task<IEnumerable<Usuario>> GetUsuarios()
     {
-      throw new NotImplementedException();
+      return await _context.Usuarios.ToListAsync();
     }
 
     public async Task<bool> SaveChangesAsync()
